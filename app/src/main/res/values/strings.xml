@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VoiceRecorder</string>
+    <string name="text_on">录音开启</string>
+    <string name="text_off">录音关闭</string>
+</resources>
