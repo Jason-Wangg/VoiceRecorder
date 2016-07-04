@@ -47,8 +47,8 @@ public class RecorderUtil {
             e.printStackTrace();
         }
         this.mr.setOutputFormat(MediaRecorder.OutputFormat.AAC_ADTS);
-        this.mr.setAudioEncoder(MediaRecorder.AudioEncoder.AAC);
         this.mr.setOutputFile(fileName);
+        this.mr.setAudioEncoder(MediaRecorder.AudioEncoder.AAC);
         try {
             this.mr.prepare();
         } catch (IOException e) {

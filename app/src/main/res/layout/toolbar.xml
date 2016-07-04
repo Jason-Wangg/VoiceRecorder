@@ -6,7 +6,7 @@
 <Switch
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_gravity="right"
+    android:layout_gravity="end|center_horizontal"
     android:id="@+id/re_switch"
     android:textOn="@string/text_on"
     android:textOff="@string/text_off"
